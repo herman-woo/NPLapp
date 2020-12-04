@@ -1,20 +1,20 @@
-import { checkForName } from './js/nameChecker'
+//Import js 
+import { checkForURL } from './js/urlChecker'
 import { handleSubmit } from './js/formHandler'
+import { testingJestFunction } from './js/formHandler'
 
+//Import Style Sheets as SASS
 import './styles/resets.scss'
 import './styles/base.scss'
 import './styles/footer.scss'
 import './styles/form.scss'
 import './styles/header.scss'
 
-console.log(checkForName);
+//console.log(checkForName);
 
-//alert("I EXIST")
-console.log("CHANGE!!");
 
+//Used for Webpack
 export {
-
-    checkForName,
-
+    checkForURL,
     handleSubmit
 }
