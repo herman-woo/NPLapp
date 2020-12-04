@@ -21,6 +21,7 @@ function handleSubmit(event) {
             return res.json()
                 })
         .then(function(data){
+            console.log(data);
         const status = data.status.msg;
         const subjectivity = data.subjectivity;
         Client.checkForURL(status)

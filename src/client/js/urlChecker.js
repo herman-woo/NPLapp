@@ -1,11 +1,11 @@
 function checkForURL(inputText) {
     if (inputText === 'OK'){
         console.log(inputText)
-        return true
+        return true;
     }
     else{
         alert(inputText)
-        return false
+        return false;
     }
 }
 

@@ -7,6 +7,7 @@ var path = require('path')
 //Set up Express
 const express = require('express')
 const app = express()
+const mockAPIResponse = require('./mockAPI.js')
 /* Initialize the main project folder*/
 app.use(express.static('dist'))
 // designates what port the app will listen to for incoming requests
