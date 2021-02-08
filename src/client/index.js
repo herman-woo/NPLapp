@@ -1,3 +1,4 @@
+
 //Import js 
 import { checkForURL } from './js/urlChecker'
 import { handleSubmit } from './js/formHandler'
@@ -15,6 +16,7 @@ import './styles/header.scss'
 
 //Used for Webpack
 export {
-    checkForURL,
-    handleSubmit
+    checkForURL//,
+//    handleSubmit
 }
+
